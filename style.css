@@ -746,6 +746,35 @@ a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+.site-content,
+site-navigation,
+.site-header {
+	text-align: center;
+}
+.entry-header {
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+.entry-title {
+	padding-top: 5%;
+	margin: 0;
+}
+
+.entry-description {
+	margin-top: 10px;
+}
+
+.entry-description p{
+	margin: 0;
+}
+
+.post-page-content,
+.post-page-header,
+.post-page-footer {
+	
+}
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
