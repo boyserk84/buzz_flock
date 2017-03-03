@@ -6,7 +6,7 @@
 */
 
 ?>
-<div class="col-md-12">
+<div class="col-md-12 entry-list">
 <?php
 /* Start the Loop */
 while ( have_posts() ) : the_post();
@@ -20,4 +20,4 @@ while ( have_posts() ) : the_post();
 
 endwhile;
 ?>
-</div>
+</div><!--.entry-list-->

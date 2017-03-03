@@ -8,15 +8,14 @@
  */
 
 ?>
-
+<div class="row entry-list-item container-fluid">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header container-fluid">
+	<header class="entry-header">
 		<div class="entry-thumbnail col-xs-12 col-md-6">
 		<?php
 
 		if( has_post_thumbnail() ){
-	    $tb_size = array();
-	    // TODO: Add an option for listing tb as a circle "img-circle"
+	    $tb_size = array();	// TODO: Add option for determine size of the thumbnail
 	    $tb_attr = array("class"=>"img-thumbnail", "title"=>get_the_title() );
 	    echo get_the_post_thumbnail( null, $tb_size, $tb_attr);
 	  } else {
@@ -53,5 +52,5 @@
 		endif; ?>
 	</div><!-- .entry-content -->
 	</header><!-- .entry-header -->
-
 </article><!-- #post-## -->
+</div><!--.entry-list-item-->
