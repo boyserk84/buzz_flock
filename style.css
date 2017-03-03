@@ -54,6 +54,8 @@ html {
 
 body {
 	margin: 0;
+	padding-top: 100px;
+	background-color: blue;
 }
 
 article,
@@ -502,6 +504,13 @@ textarea {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
+.navbar-default .site-header {
+	background-color: white;
+}
+
+.navbar-inverse .site-header {
+	color:white;
+}
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
@@ -746,14 +755,26 @@ a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+.site-footer,
+.post-page-header,
+.post-page-footer,
 .site-content,
 site-navigation,
 .site-header {
 	text-align: center;
 }
+.entry-list {
+	margin: 0;
+}
+
+.entry-list-item {
+	padding: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 .entry-header {
 	text-align: left;
-	margin-bottom: 50px;
 }
 
 .entry-title {
@@ -769,10 +790,23 @@ site-navigation,
 	margin: 0;
 }
 
-.post-page-content,
-.post-page-header,
-.post-page-footer {
-	
+.post-page-content {
+	text-align: justify;
+}
+
+.post-page-content {
+	margin: 5% 20% 5% 20%;
+}
+
+/** Wrapper for a post. */
+.single-post-main {
+	margin-top: 10%;
+	margin-left:12%;
+	margin-right:12%;
+}
+
+.entry-meta-single {
+	text-transform: uppercase;
 }
 
 /*--------------------------------------------------------------
