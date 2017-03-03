@@ -9,6 +9,4 @@ It is derived from a starter theme called underscores `_s`.
 Libraries Included
 ===
 * JQuery
-* Font-awesome
-* Google Fonts
 * Bootstrap CSS
